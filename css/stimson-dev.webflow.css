@@ -440,6 +440,13 @@ figcaption {
 
 .go-up-button.w--current {
   z-index: 100;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .social-icons {
@@ -4285,6 +4292,10 @@ figcaption {
   background-position: 50% 50%;
   background-size: auto;
   background-repeat: no-repeat;
+}
+
+.hidden-image {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
